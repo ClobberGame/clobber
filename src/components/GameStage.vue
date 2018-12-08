@@ -4,12 +4,12 @@
 </template>
 
 <script>
-import GameFoo from '../game/stage.js';
+import Stage from '@/game/stage';
 
 export default {
   name: 'GameStage',
   mounted: function () {
-    this.game = new GameFoo({
+    this.game = new Stage({
       el: this.$el
     });
     this.game.setup();

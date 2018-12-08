@@ -14,7 +14,11 @@ export default new Vuex.Store({
     },
     incrementX (state) {
       state.x += 50;
+    },
+    setX (state, newX) {
+      state.x = newX;
     }
+
   },
   actions: {
 

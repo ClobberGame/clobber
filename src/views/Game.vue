@@ -4,9 +4,7 @@
     <button @click="incrementScore">
       Increment {{score}}
     </button>
-    <button @click="incrementX">
-      Increment {{x}}
-    </button>
+    <span>{{x}} </span>
   </div>
 
 </template>
